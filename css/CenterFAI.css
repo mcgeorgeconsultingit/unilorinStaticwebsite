@@ -1,0 +1,358 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.CFAIHomeBg {
+    background-image: url('/images/centerForAffliatedBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+}
+
+/* @media (min-width:1306px) {
+    .CFAIHomeBg {
+        background-position: center!important;
+        transition: background-position 0.5s ease-in-out, background-size 0.5s ease-in-out;
+    }
+} */
+
+.CFAI-homePageWrapper {
+    /* top: 10%; 
+    left: 0%; 
+    right: 0%; 
+    bottom: 0%; */
+    /* 
+	left: 50%;
+    top: 30%;
+	transform: translate(-50%, -50%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    width: 95%;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    /* background-color: rgba(248,249,250, var(--bs-bg-opacity)) !important; */
+}
+
+.CFAI-text1 {
+    font-weight: 200 !important;
+    font-size: clamp(0.8125rem, -0.0125rem + 2.2vw, 1.5rem);
+    color: #FFFFFF;
+    width: 70%;
+}
+
+.CFAI-homePage-header {
+    font-weight: 800;
+    font-size: clamp(1.125rem, -1.425rem + 6.8vw, 3.25rem) !important;
+    /* font-size: 42px; */
+    /* font-size: 52px; */
+}
+
+.CFAI-homePageBtn {
+    font-weight: 500;
+    font-size: clamp(0.75rem, 0.45rem + 0.8vw, 1rem) !important;
+    color: #FFFFFF !important;
+    background-color: #A5660D !important;
+    border-color: #A5660D !important;
+}
+
+.CFAI-ColourHeader {
+    font-weight: 700;
+    font-size: clamp(1.625rem, 0.4643rem + 3.7143vw, 3.25rem);
+    color: #A5660D;
+}
+
+.CFAI-ContentOne {
+    text-align: justify;
+    font-weight: 300;
+    font-size: clamp(1rem, 0.7917rem + 0.6667vw, 1.25rem);
+    color: #202020;
+    opacity: 75%;
+}
+
+.CFAI-BG-Colour {
+    background-color: rgba(48, 26, 111, 0.05);
+}
+
+.CFAI-ContentOne-Wrapper {
+    background-image: url('/images/CFAI-homePage-Rec-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+}
+
+.CFAI-ActivitiesText {
+    font-weight: 500;
+    font-size: clamp(0.875rem, 0.6964rem + 0.5714vw, 1.125rem);
+    color: rgba(32, 32, 32, 0.75);
+}
+
+.CFAI-Header {
+    font-weight: 700;
+    font-size: clamp(1.25rem, 0.5357rem + 2.2857vw, 2.25rem);
+}
+
+.ProgrammeWrapper {
+    background-image: url('/images/CFAI-CoverPage-Rec-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+}
+
+.ProgrammeWrapper .card-title {
+    font-weight: 600;
+    font-size: clamp(0.875rem, 0.6071rem + 0.8571vw, 1.25rem);
+    color: rgba(32, 32, 32, 0.75);
+}
+
+.ProgrammeWrapper h6 {
+    font-weight: 600;
+    font-size: clamp(0.75rem, 0.4821rem + 0.8571vw, 1.125rem);
+    color: rgba(32, 32, 32, 0.75);
+}
+
+.ProgrammeWrapper li {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(32, 32, 32, 0.75);
+}
+
+.ProgrammeWrapper .ProgramCard {
+    border-color: #A5660D !important;
+}
+
+/* .university_icon {
+    color: #A5660D;
+    font-size: ;
+} */
+
+.ProgrammeWrapper li::marker {
+    color: #A5660D !important;
+    padding: 0%;
+}
+
+.ProgrammeWrapper li {
+    padding-right: 6px !important;
+}
+
+.ProgrammeWrapper a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(32, 32, 32, 0.75);
+}
+
+.ProgrammeWrapper .mail, .ProgrammeWrapper .web {
+    width: 24px;
+    height: 24px;
+}
+
+.container-custom2 {
+    width: 95%;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.StaffsWrapper .Staffs-CardHeader, .Publications .Staffs-CardHeader {
+    font-weight: 600;
+    font-size: clamp(0.875rem, 0.6071rem + 0.8571vw, 1.25rem);
+    color: rgba(32, 32, 32, 0.75);
+}
+
+/* .Staffs-CardHeader .TextFade {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: rgba(32, 32, 32, 0.75) !important;
+} */
+
+.StaffsWrapper .CFAI-Card-SubText, .Publications .CFAI-Card-SubText {
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.2679rem + 1.1429vw, 1.125rem);
+    color: rgba(32, 32, 32, 0.75);
+}
+
+.Events .event-card-header {
+    font-weight: 600;
+    font-size: clamp(1.125rem, 1.0357rem + 0.2857vw, 1.25rem);
+}
+
+.Events .event-card-text1 {
+    font-weight: 400;
+    color: #202020;
+    font-size: clamp(0.9375rem, 0.8036rem + 0.4286vw, 1.125rem);
+}
+
+.Events .event-card-text2 {
+    font-weight: 500;
+    color: rgba(32, 32, 32, 0.75);
+}
+
+.Publications-Search-Btn, .Publications-Search-Btn:hover {
+    background-color: #A5660D;
+    color: #FFFFFF;
+    border-radius: 0%;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.Publications-btn, .Publications-btn:hover {
+    border-radius: 0%;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.Publications-btn1, .Publications-btn1:hover {
+    color: #FFFFFF;
+    background-color: #A5660D;
+}
+
+.Publications-btn2, .Publications-btn2:hover {
+    color: #A5660D;
+    background-color: rgba(165, 102, 13, 0.13);
+}
+
+.Publications .card {
+    border-radius: 0%;
+}
+
+.Publications .publication-img-wrapper {
+    background-color: rgba(48, 26, 111, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Publication-Card .CFAI-Card-SubText {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(32, 32, 32, 0.75);
+}
+
+.Publication-Card .Staffs-CardHeader {
+    font-weight: 600;
+    font-size: 17px;
+    color: #202020;
+}
+
+.wrapper, .wrapperOne {
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    overflow-x: auto !important;
+    scroll-behavior: smooth;
+}
+
+.wrapper::-webkit-scrollbar, .wrapperOne::-webkit-scrollbar {
+    width: 0;
+}
+
+.ContactUs {
+    background-image: url('/images/CFAI-ContactUs-Bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: fit-content;
+}
+
+.contactContainer {
+    background-color: #A5660D;
+    color: #FFFFFF;
+}
+
+.ContactUs a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.ContactUsWrapper .CFAI-ContactUsHeader {
+    font-weight: 700;
+    font-size: clamp(1.25rem, 0.5357rem + 2.2857vw, 2.25rem);
+}
+
+.ContactUsWrapper .CFAI-ContactUsText1 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.ContactUsWrapper .CFAI-ContactUsText2 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.ContactUsWrapper i {
+    font-size: 18px;
+}
+
+.ContactUsWrapper input, .ContactUsWrapper textarea {
+    border-color: rgba(32, 32, 32, 0.62) !important;
+}
+
+.ContactUsWrapper input:hover, .ContactUsWrapper textarea:hover {
+    border-color: rgba(32, 32, 32, 0.7) !important;
+}
+
+.contactFormDetails ::placeholder {
+    font-weight: 500;
+    font-size: clamp(0.875rem, 0.7857rem + 0.2857vw, 1rem);
+    color: rgba(32, 32, 32, 0.75);
+}
+
+.contactForm .send-Btn {
+    background-color: #A5660D;
+    color: #FFFFFF;
+}
+
+#ContactUs-Comment {
+    resize: none;
+}
+
+.CFAI-footerHeader {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.CFAI-footerText1, .CFAI-footerText1 a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-ruler {
+    border: #FFFFFF solid 0.5px !important;
+    /* height: 4px !important; */
+    /* border-color: #FFFFFF; */
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: #FFFFFF;
+    z-index: 3;
+}
+
+.copy-right, .CFAI-footer .footer-links {
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.CFAI-footer {
+    background-color: #301A6F;
+}
+
+.ActivitiesContainer .card:hover {
+    background-color: rgba(196, 166, 108, 0.75);
+}
+
+.ActivitiesContainer .card-body:hover, .CFAI-ActivitiesText:hover {
+    color: #FFFFFF !important;
+}

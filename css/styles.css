@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container-custom {
+    width: 90% !important;
+    margin: auto;
+    padding: auto;
+}
+
+.nav-bg {
+    background-color: #301A6F !important;
+}
+
+.nav-main .nav-search-icon {
+    color: #301A6F;
+    font-size: clamp(20px, 6vw, 25px);
+}
+
+.link-disabled {
+    text-decoration: none;
+}
+
+.top-nav-wrapper {
+    background-color: #301A6F !important;
+    font-size: clamp(14px, 10vw, 15px);
+    .top-nav-text{
+        height: 8vh;
+    }
+    .contact-number, .contact-mail{
+        font-size: clamp(0.625rem, 0.1563rem + 1.5vw, 1rem);
+    }
+}
+
+.top-nav-links {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-nav-links:hover {
+    opacity: 75%;
+}
+
+.top-nav-text{
+    font-style: 'Inter';
+}
+
+.nav-main .dropdown-toggle::after, .nav-main .show ::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat;
+    /* content: url('/unilorin-_website/images/downArrown.svg'); */
+    content: normal;
+}
+
+.color-dark:hover {  
+    color: #FFFFFF !important;
+}
+
+.nav-main {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 10;
+    /* height: 10vh; */
+}
+
+.nav-links {
+    font-weight: 500;
+    font-size: clamp(10px, 3vw, 12px);
+}
+
+.nav-links:hover {
+    background-color: #301A6F !important;
+    border-radius: 5px !important;
+    color: #FFFFFF !important;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0rem !important;
+}
+
+.container-footer .row {
+    --bs-gutter-x: 0rem;
+}
+
+.footer-bg-1 {
+    background-color: #FFFFFF;
+}
+
+.footer-bg-2{
+   background-color: #301A6F;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+    font-size: clamp(14px, 3vw, 16px);
+    opacity: 75%;
+}
+
+.footer-links:hover {
+    color: #FFFFFF !important;
+    opacity: 100%;
+}
+
+.footer-link-header{
+    font-weight: 700 !important;
+    font-size: clamp(15px, 5vw, 20px) !important;
+    opacity: 100 !important;
+}
+
+.external-element {
+    box-sizing: border-box;
+    border: 1.5px solid #C4A66C!important;
+    border-radius: 4px;
+    width: 90%;
+    height: 85%;
+}
+
+.footer-contactUs-text, .footer-socialHandle-header {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+    color: #301A6F;
+}
+
+.footer-postal-text {
+    color: #202020;
+    font-weight: 500;
+    font-size: clamp(0.875rem, 0.625rem + 0.6667vw, 1rem);
+}
+
+.other-contacts-footer {
+    color: #202020;
+    font-weight: 300;
+    font-size: clamp(0.6875rem, 0.4375rem + 0.6667vw, 0.8125rem);
+    i{
+        color: #C4A66C;
+    }
+}
+
+/* .footer-contacts {
+    font-size: clamp();
+} */
+
+.social-media-handles {
+    i{
+        color: #C4A66C;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+.footer-links-2 {
+    color: #FFFFFF !important;
+    font-size: clamp(14px, 20vw, 16px);
+}
+
+.copyright-link-color {
+    color: #301A6F;
+    font-weight: 500 !important;
+    font-size: clamp(12px, 20vw, 16px);
+}

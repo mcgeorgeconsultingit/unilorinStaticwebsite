@@ -1,0 +1,297 @@
+.wrapper, .wrapperOne, .wrapperTwo {
+    max-height: 100%;
+    /* width: 1172px; */
+    /* max-width: max-content; */
+    max-width: 100%;
+    display: flex;
+    overflow-x: auto !important;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.wrapper .col, .wrapperOne .col, .wrapperTwo .col {
+    scroll-snap-align: start;
+}
+
+.wrapper::-webkit-scrollbar, .wrapperOne::-webkit-scrollbar, .wrapperTwo::-webkit-scrollbar {
+    width: 0;
+}
+
+.card-img-top-1 {
+    /* width: clamp(300px, 12vw, 300px); */
+    width: clamp(280px, 12vw, 300px);
+    height: auto;
+    object-fit: cover;
+} 
+
+.card-img-top-2 {
+    width:clamp(15.625rem, 11.7188rem + 12.5vw, 18.75rem);
+    margin: 0 auto;
+    /* width: clamp(11.25rem, 6.7857rem + 14.2857vw, 17.5rem); */
+    /* width: max-content; */
+    height: auto;
+    object-fit: cover   ;
+}
+
+.card-img-top-3 {
+    min-width: 200px;
+}
+
+@media only screen and (min-width: 640px) {
+    /* .card-img-top-studyAtSection {
+        width: 100% !important;
+        height: auto;
+    }  */
+    /* .card-img-top-2 {
+        width: 100%;
+    } */
+    .vc-name {
+        font-size: clamp(0.75rem, -1.5rem + 4vw, 1.5rem) !important;
+    }
+    
+    .vc-name > span {
+        font-size: clamp(0.75rem, -1.5rem + 4vw, 1.5rem) !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .vc-name {
+        font-size: clamp(0.8125rem, -0.15rem + 4.4vw, 1.5rem) !important;
+    }
+    
+    .vc-name > span {
+        font-size: clamp(0.625rem, -0.6rem + 5.6vw, 1.5rem) !important;
+    }
+    .vc-heading-1a {
+        font-size: clamp(0.75rem, 0.25rem + 2.6667vw, 1.25rem) !important;
+    }
+    .vc-heading-2 {
+        font-size: clamp(1.75rem, 0.7rem + 4.8vw, 2.5rem) !important;
+    }
+    .vc-text-1a {
+        font-size: clamp(0.75rem, 0.25rem + 2.6667vw, 1.25rem) !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #homepage-image-bg {
+        display: block !important;
+    }
+    #homepage-video-bg {
+        display: none !important;
+    }
+    .playPauseBtnContainer {
+        display: none !important;
+    }
+    /* .vc-text-wrapper {
+        transform: translateY(clamp(0.3vh, 1vh, 2vh)) !important;
+    } */
+}
+
+@media only screen and (max-width: 779) {
+    .vc-image {
+        width: 600px !important;
+        height: auto !important;
+    }
+
+    .vc-name {
+        font-size: clamp(5px, 10vw, 15px) !important;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 994px) {
+    .vc-heading-1 {
+        font-size: clamp(0.875rem, 0rem + 2vw, 1.25rem) !important;
+    }
+    
+    .vc-heading-2 {
+        font-size: clamp(11px, 6vw, 23px) !important;
+    }
+
+    .vc-text {
+        font-size: clamp(0.625rem, -0.6875rem + 3vw, 1rem) !important;    
+    }
+
+    .article-btn {
+        font-size: clamp(7px, 5vw, 12px) !important;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .vc-name {
+        /* font-size: clamp(13px, 1vw, 14px) !important; */
+    }
+
+    .vc-heading-2a {
+        font-size: clamp(23.5px, 3vw, 25px) !important;
+        /* font-size: 23.5px !important; */
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .display-none-sm {
+        display: none !important;
+    }
+}
+
+
+/* @media only screen and (max-width: 780px) { */
+@media only screen and (max-width: 640px) {
+    .vc-wrapper {
+        max-width: 900px !important;
+        overflow-x: hidden !important;
+    }
+    
+    .vc-wrapper-1 {
+        max-width: 900px !important;
+        /* overflow-x: hidden !important; */
+        direction: rtl !important;
+    }
+
+    .vc-text-wrapper {
+        display: none !important;
+    }
+
+    .vc-image, .vc-image-wrapper {
+        width: 97% !important;
+    }
+
+    .vc-container {
+        min-width: 100% !important;
+        padding: 0% !important;
+        margin: 0% 0% 2% 5% !important;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .external-element {
+        padding-top: 0.5% !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .card-img-top-1, .card-img-top-2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:765px) {
+    .ranking-inner-container {
+        width: 85% !important;
+    }
+    .footer-link-header {
+        font-size: clamp(1.125rem, -1.0376rem + 4.5113vw, 1.5rem);
+    }
+    .footer-links {
+        font-size: clamp(0.875rem, 0.0625rem + 1.6667vw, 1rem);
+    }
+}
+
+@media only screen and (max-width:765px) {
+    .ranking-section-text {
+        font-weight: 200 !important;
+        /* font-size: clamp(14px, 5vw, 16px); */
+    }
+}
+
+@media (min-width: 767px) and (max-width: 880px) {
+    .footer-contacts {
+        font-size: clamp(8px, 5vw, 12.6px) !important;
+    }
+    
+    .footer-link-clamp {
+        font-size: clamp(10px, 12vw, 14px);
+    }
+}
+
+
+/* ABOUT-US */
+/* SIDE-BAR */
+@media (min-width: 767px) and (max-width: 996px) {
+    .about-page-links{
+        font-size: 18px !important;
+        /* font-size: clamp(14px,77vw,16px)!important; */
+    }
+}
+/* RANKING */
+@media screen and (max-width: 1159px) {
+    .rank-Btn-wrapper {
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 927px) {
+    .rank-Btn-wrapper {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 589px) {
+    .rank-Btn-wrapper {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .rank-Btn-wrapper {
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .rank-Btn-wrapper {
+        width: 89% !important;
+    }
+}
+
+/* BOOTSTRAP SIZES */
+/* SMALL */
+@media screen and (max-width:575px) {
+    .Publications .buttonWrapper {
+        display: none !important;
+    }
+}
+/* MEDIUM */
+@media screen and (max-width: 767px) {
+    .card-text1 {
+        font-size: clamp(0.625rem, -0.2083rem + 3.3333vw, 1.25rem) !important;
+    }
+    .card-text2 {
+        font-size: clamp(0.5625rem, -0.1875rem + 3vw, 1.125rem) !important;
+    }
+    .card-header1 {
+        font-size: clamp(0.60875rem, 0.1278rem + 2.565vw, 1.25rem) !important;
+    }
+    .card-text3 {
+        font-size: clamp(0.548125rem, 0.1155rem + 2.3075vw, 1.125rem) !important;
+    }
+    .ProgrammeWrapper {
+        background-image: url('/images/CFAI-CoverPage-Rec-3a.png') !important;
+    }
+    /* CFAOI Page */
+    .StaffsWrapper .Staffs-CardHeader {
+        color: rgba(48, 26, 111, 1) !important;
+    }
+    .StaffsWrapper .CFAI-Card-SubText {
+        color: rgba(32, 32, 32, 1) !important;
+    }
+}
+/* LARGE */
+@media screen and (min-width: 768px) {
+    .card-text1 {
+        font-size: clamp(0.625rem, -0.625rem + 3.3333vw, 1.25rem) !important;
+    }
+    .card-text2 {
+        font-size: clamp(0.625rem, -0.5417rem + 2.6667vw, 1.125rem) !important;
+    }
+    .card-header1 {
+        font-size: clamp(0.60875rem, -0.8875rem + 3.42vw, 1.25rem) !important;
+    }
+    .card-text3 {
+        font-size: clamp(0.548125rem, -0.7979rem + 3.0767vw, 1.125rem) !important;
+    }
+    .Publications .journal-img {
+        width: 50% !important;
+    }
+}

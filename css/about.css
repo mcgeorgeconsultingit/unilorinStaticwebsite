@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    font-family: 'Inter';
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.leadership-aboutUs-banner {
+    background-image: url('/images/leadership-aboutUs-bg.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: clamp(4.4375rem, -2.5156rem + 22.25vw, 10rem);;
+}
+
+.about-side-links {
+    top: 5rem !important;
+    bottom: 0rem !important;
+    height: 67vh !important;
+    z-index: 3;
+    width: 24% !important;
+    /* position: fixed !important; */
+    /* position: sticky !important; */
+    /* margin-top: 5rem !important; */
+}
+
+.about-link-pages-wrapper {
+    border-color: rgba(32, 32, 32, 0.15);
+}
+
+.aboutUs-heading, .administration-heading {
+    color: #301A6F;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 0.5625rem + 3vw, 2.25rem);
+}
+
+.about-page-links {
+    text-decoration: none;
+    font-size: clamp(19px, 5vw, 22px);
+    font-weight: 300;
+    color: #202020;
+    opacity: 75%;
+}
+
+.about-page-links:hover {
+    font-weight: 600 !important;
+    color: #301A6F !important;
+    opacity: 100%;
+}
+
+.about-active-page-link {
+    font-weight: 600 !important;
+    color: #301A6F !important;
+    opacity: 100%;
+}
+
+.aboutUsContentActive {
+    display: block !important;
+}
+
+.leadership-about-card-header {
+    font-size: clamp(0.625rem, 0rem + 2vw, 1.125rem);
+    font-weight: 400;
+    color: #202020;
+    opacity: 100%;
+}
+
+.leadership-about-card-text {
+    font-size: clamp(0.875rem, 0.4063rem + 1.5vw, 1.25rem);
+    font-weight: 600;
+    color: #301A6F;
+    opacity: 100%;
+}
+
+.card-wrapper {
+    background-color: #F5F4F8;
+}
+
+.card-container {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* ABOUT-US-LEADERSHIP-CONTENT */
+.youtube-wrapper {
+    border: none;
+    width: 100%; 
+    height:439px;
+    background-color: #202020;
+    /* opacity: 75%; */
+    /* width: 844px;  */
+}
+
+#player {
+    border: none;
+    width: 100%; 
+    height: 439px;
+}
+
+.kwara-gov-link, .about-text-color {
+    text-decoration: none;
+    color: #301A6F;
+}
+
+article>p>.kwara-gov-link>strong {
+    font-weight: 600 !important;
+}
+
+/* ABOUT-US-HISTORY-CONTENT */
+.aboutUs-spanText, .history-content {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.aboutUs-subHeading, .history-subHeading {
+    font-weight: 700;
+    font-size: 24px;
+    color: #301A6F;
+}
+
+/* ABOUT-US-RANKING */
+.rank-Btn-wrapper {
+    width: 32%;
+}
+
+.aboutUsRankBtn {
+    background-color: #301A6F;
+    color: #FFFFFF;
+    font-weight: 500;
+    border: none;
+    width: 66%;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.rank-numbers {
+    font-size: 18px;
+    font-weight: 600;
+    color: #202020;
+    cursor: pointer;
+}
+
+.rank-verify-icon {
+    font-size: 23px;
+    cursor: pointer;
+    color: #202020;
+}
+
+.aboutUsRank-link {
+    text-decoration: none;
+}
+
+.aboutUsContentWrapper {
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.aboutUsContentWrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+/* ACCORDION-FOR-ABOUT-US*/
+.accordionContainer .accordion-button1 {
+    color: #202020;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.accordionContainer .accordion {
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23301A6F'/%3E%3Cpath d='M16 14L12 10L8 14' stroke='white' stroke-width='1.33333' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+.accordionContainer .accordion-body {
+    padding: 0% !important;
+}
+
+.accordionContainer .accordion-button {
+    width: fit-content !important;
+}
+
+.accordionContainer .accordion-button::after {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23301A6F'/%3E%3Cpath d='M8 10L12 14L16 10' stroke='white' stroke-width='1.33333' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A") !important;
+}
+
+.accordionContainer .accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordionContainer .accordion-button:not(.collapsed) {
+   /* background-color: transparent !important; */
+    background-color: rgba(48, 26, 111, 0.01) !important;
+    box-shadow: none;
+}
+
+.accordionContainer .accordion-button {
+    background-color: rgba(48, 26, 111, 0.01) !important;
+}
+
+.accordionContainer #accordionWrapper {
+    background-color: rgba(48, 26, 111, 0.1) !important;
+}
